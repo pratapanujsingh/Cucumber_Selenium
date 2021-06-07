@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-02T06:09:20.824Z",
+        "line": 18,
+        "name": "Search Customer by Email ID",
+        "description": "",
+        "id": "customers;search-customer-by-email-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26687016500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Chrome browser is launched",
+            "match": {
+              "location": "stepDefinitions.Steps.chrome_browser_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3079107900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Open url \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.Steps.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289021600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters Email \"admin@yourstore.com\" and password  as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_email_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28897238900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on enter",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178264900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User can view Dashboard",
+            "match": {
+              "location": "stepDefinitions.Steps.user_can_view_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216807900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on customers menu",
+            "match": {
+              "location": "stepDefinitions.Steps.user_clicks_on_customers_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7971613700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click on customers menu item",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_customers_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555065100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "enter customer Email",
+            "match": {
+              "location": "stepDefinitions.Steps.enter_customer_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112001500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2163765200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should found email",
+            "match": {
+              "location": "stepDefinitions.Steps.user_should_found_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13721707800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Customers",
+    "description": "",
+    "id": "customers",
+    "keyword": "Feature",
+    "uri": "file:features/customers.feature",
+    "tags": []
+  }
+]
